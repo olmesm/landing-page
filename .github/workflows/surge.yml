@@ -16,7 +16,7 @@ jobs:
       - run: npm ci --omit=dev
       - run: npm run build
       - name: Add CNAME # https://surge.sh/help/adding-a-custom-domain
-        uses: echo "example.com" > dist/CNAME
+        run: echo "example.com" > dist/CNAME
       - name: Deploy
         run: npx surge dist
         env:

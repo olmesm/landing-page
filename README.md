@@ -8,7 +8,7 @@ Minimal landing page fed from a [yaml config](content.yaml). Forked and modified
 
 1. Fork this repo with the name `{username}.github.io`
 1. Change the content in [content.yaml](content.yaml)
-1. Set the correct branch in [.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml#L6)
+1. Set the correct branch in [.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml#L5)
 1. Push to github
 1. Your site should be live at `https://{username}.github.io`
 
@@ -17,10 +17,10 @@ Minimal landing page fed from a [yaml config](content.yaml). Forked and modified
 1. Setup the correct CNAME or IP adress as per [Surge.sh: Adding a custom domain](https://surge.sh/help/adding-a-custom-domain)
 1. Fork this repo
 1. Change the content in [content.yaml](content.yaml)
-1. Set the correct branch in [.github/workflows/surge.yml](.github/workflows/surge.yml#L6)
+1. Set the correct branch in [.github/workflows/surge.yml](.github/workflows/surge.yml#L5)
 1. Set the correct CNAME in [.github/workflows/surge.yml](.github/workflows/surge.yml#L19)
 1. Push to github
-1. Your site should be live at the url entered
+1. Your site should be live at the url entered above
 
 If you want to make your new landing page available via github see [setting up a custom domain](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
