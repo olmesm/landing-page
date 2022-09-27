@@ -1,8 +1,6 @@
 # Landing Page from yaml
 
-Minimal landing page. Forked and modified from [flexdinesh/dev-landing-page](https://github.com/flexdinesh/dev-landing-page).
-
-Developers don't talk much. Their code does all the talking. So here's a minimal landing page fed from yaml config.
+Minimal landing page fed from a [yaml config](content.yaml). Forked and modified from [flexdinesh/dev-landing-page](https://github.com/flexdinesh/dev-landing-page).
 
 ## Usage
 
@@ -10,7 +8,7 @@ Developers don't talk much. Their code does all the talking. So here's a minimal
 
 1. Fork this repo with the name `{username}.github.io`
 1. Change the content in [content.yaml](content.yaml)
-1. Set the correct branch in [.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml)
+1. Set the correct branch in [.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml#L6)
 1. Push to github
 1. Your site should be live at `https://{username}.github.io`
 
@@ -19,8 +17,8 @@ Developers don't talk much. Their code does all the talking. So here's a minimal
 1. Setup the correct CNAME or IP adress as per [Surge.sh: Adding a custom domain](https://surge.sh/help/adding-a-custom-domain)
 1. Fork this repo
 1. Change the content in [content.yaml](content.yaml)
-1. Set the correct branch in [.github/workflows/surge.yml](.github/workflows/surge.yml)
-1. Set the correct CNAME in [.github/workflows/surge.yml](.github/workflows/surge.yml)
+1. Set the correct branch in [.github/workflows/surge.yml](.github/workflows/surge.yml#L6)
+1. Set the correct CNAME in [.github/workflows/surge.yml](.github/workflows/surge.yml#L19)
 1. Push to github
 1. Your site should be live at the url entered
 

@@ -24,4 +24,4 @@ jobs:
           force_orphan: true
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          commit_message: "Deployed"
+          commit_message: "Deployed using [olmesm/dev-landing-page](https://github.com/olmesm/dev-landing-page)"
