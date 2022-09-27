@@ -1,0 +1,24 @@
+name: Deploy to Surge
+on:
+  push:
+    branches:
+      - never # main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm ci --omit=dev
+      - run: npm run build
+      - name: Add CNAME # https://surge.sh/help/adding-a-custom-domain
+        uses: echo "example.com" > dist/CNAME
+      - name: Deploy
+        run: npx surge dist
+        env:
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }} # locally run `npx surge token` and then copy the values into <github/owner/repo>/settings/secrets/actions
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }} # locally run `npx surge token` and then copy the values into <github/owner/repo>/settings/secrets/actions

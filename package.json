@@ -1,0 +1,29 @@
+{
+	"name": "dev-landing-page",
+	"version": "1.0.0",
+	"description": "Minimal landing page for developers.",
+	"main": "scripts/build.js",
+	"type": "module",
+	"scripts": {
+		"build": "rm -rf dist && cp -r src/ dist && node scripts/build.js",
+		"dev": "npm run build && concurrently 'nodemon -e js,json,yaml' 'sleep 1 && live-server dist'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/olmesm/dev-landing-page.git"
+	},
+	"keywords": [],
+	"author": "Oliver Smit <github.com/olmesm>",
+	"bugs": {
+		"url": "https://github.com/olmesm/dev-landing-page/issues"
+	},
+	"homepage": "https://github.com/olmesm/dev-landing-page#readme",
+	"dependencies": {
+		"yaml": "^2.1.1"
+	},
+	"devDependencies": {
+		"concurrently": "^7.4.0",
+		"live-server": "^1.2.2",
+		"nodemon": "^2.0.20"
+	}
+}

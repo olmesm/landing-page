@@ -1,0 +1,32 @@
+title: Oliver Smit | Awesome Dev
+theme: indigo-white
+intro: Hello, I'm Oliver!
+tagline: All-Star Dev | Code Fanatic | Linux Hacker | Bleh
+links: # Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands
+  - title: Github
+    icon: fa-github
+    url: https://github.com/flexdinesh
+  - title: Twitter
+    icon: fa-twitter
+    url: https://twitter.com/flexdinesh
+  - title: DEV Community
+    icon: fa-dev
+    url: https://dev.to/flexdinesh
+  - title: StackOverflow
+    icon: fa-stack-overflow
+    url: https://stackoverflow.com/story/flexdinesh
+  - title: LinkedIn
+    icon: fa-linkedin
+    url: https://www.linkedin.com/in/dineshpandiyan
+  - title: Medium
+    icon: fa-medium
+    url: https://medium.com/@flexdinesh
+  - title: FreeCodeCamp
+    icon: fa-free-code-camp
+    url: https://www.freecodecamp.org
+  - title: Behance
+    icon: fa-behance
+    url: https://www.behance.net
+  - title: CodePen
+    icon: fa-codepen
+    url: https://codepen.io
