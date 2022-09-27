@@ -14,11 +14,12 @@ Minimal landing page fed from a [yaml config](content.yaml). Forked and modified
 
 ### Custom Domain
 
-1. Setup the correct CNAME or IP adress as per [Surge.sh: Adding a custom domain](https://surge.sh/help/adding-a-custom-domain)
 1. Fork this repo
+1. Setup the correct CNAME or IP adress as per [Surge.sh: Adding a custom domain](https://surge.sh/help/adding-a-custom-domain)
 1. Change the content in [content.yaml](content.yaml)
 1. Set the correct branch in [.github/workflows/surge.yml](.github/workflows/surge.yml#L5)
 1. Set the correct CNAME in [.github/workflows/surge.yml](.github/workflows/surge.yml#L19)
+1. Set surge.sh credentials [`SURGE_TOKEN` and `SURGE_LOGIN` as action secrets](.github/workflows/surge.yml#L23)
 1. Push to github
 1. Your site should be live at the url entered above
 
