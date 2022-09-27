@@ -1,6 +1,6 @@
 # Landing Page from yaml
 
-Minimal landing page. Forked from [flexdinesh/dev-landing-page](https://github.com/flexdinesh/dev-landing-page).
+Minimal landing page. Forked and modified from [flexdinesh/dev-landing-page](https://github.com/flexdinesh/dev-landing-page).
 
 Developers don't talk much. Their code does all the talking. So here's a minimal landing page fed from yaml config.
 
